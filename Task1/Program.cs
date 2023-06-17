@@ -3,8 +3,7 @@
 // 782 -> 8
 // 918 -> 1
 
-//===============НАЧАЛО===============                ================КОНЕЦ===============
-
+//===============НАЧАЛО===============
 System.Console.WriteLine("Введите трехзначное число");
 int number = Convert.ToInt32(Console.ReadLine());
 if (number < 100 || number > 999)
@@ -17,3 +16,4 @@ if (number < 100 || number > 999)
     int number2 = number % 10;
     System.Console.WriteLine($"{number2}");
 }
+// ================КОНЕЦ===============
